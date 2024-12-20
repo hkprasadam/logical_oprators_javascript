@@ -23,7 +23,20 @@ console.log(job)
 
 //-------conditional operators---------
 
+//-------trenary-------
 let username= "hemanth";
 let password= "hemu123";
 
 username == "hemanth" && password == "hemu123" ? console.log("login sucessfull"): console.log("login unsucessfull");
+
+//-------optional chaining----
+
+let obj = {
+    username : "hemanth", adress :
+    {
+        "door_no" : "3-8-9",
+        "street" :"rambo",
+         "pincode":1234
+    }
+}
+console.log(obj.adress1?.pincode)
